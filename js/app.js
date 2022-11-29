@@ -44,6 +44,7 @@ function showResults(){
         }
     });
     resultsBox.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+    tryAgainButton.style.display = 'inline-block';
 }
 
 function showSlide(n) {
@@ -85,18 +86,6 @@ const tryAgainButton = document.getElementById("tryAgain");
 
 
 const myQuestions = [];
-
-
-for(i=0; i < data.length; i++){
-    myQuestions.push(data[i]);
-}
-
-document.getElementById('quizLength').innerHTML = data.length;
-
-
-/* TEXTO QUE VOY A REEMPLAZAR
-
-const myQuestions = [];
 const newObject = localStorage.getItem("questionBank");
 let dataStored = JSON.parse(newObject);
 
@@ -111,8 +100,7 @@ if(dataStored != ""){
         myQuestions.push(data[i]);
     }
     document.getElementById('quizLength').innerHTML = data.length;
-}*/
-//-------------------------------------------------------------------
+}
 
 buildQuiz();
 const previousButton = document.getElementById("previous");

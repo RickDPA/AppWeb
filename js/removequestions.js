@@ -42,7 +42,7 @@ function removeQuestion() {
     let checkboxes = document.querySelectorAll("input[type=checkbox]:checked");
 
     for (var c = 0; c < checkboxes.length; c++) {
-        questionToShow[checkboxes[c].value] = "";
+        questionToShow.splice(checkboxes[c].value, 1);
         questionBank.splice(checkboxes[c].value, 1);
     }
 
@@ -52,7 +52,7 @@ function removeQuestion() {
 
 function saveMyFile() {
     localStorage.setItem("questionBank", JSON.stringify(questionBank));
-    location.replace("quiz.html");
+    location.replace("quiz_app.html");
 }
 
 

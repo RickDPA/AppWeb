@@ -1,114 +1,83 @@
 
-
-
 data = [
     {
-        question: "Valeria, me perdonas? ",
-        answers: {
-            a: "SI ",
-            b: " CHI",
-            c: " SIPI",
-            d: " no porque soy mala y fea"
+        "question": "¿ESTO ES DE RICARDO?",
+        "answers":{
+            "a": "How To Meet Ladies",
+            "b": "Hilos Temporales Manualmente Labrados",
+            "c": "Hyper Text Markup Languaje",
+            "d": "Hidro Tecnologia Multi Lenguaje"
         },
-        correctAnswer: "a"
+        "correctAnswer": "c"
     },
     {
-        question: " ",
-        answers: {
-            a: "Word",
-            b: "Excel",
-            c: "Internet",
-            d: "Pluma y papel"
+        "question": "¿Qué es HTTP?",
+        "answers":{
+            "a": "Hyper Text Transfer Protocol",
+            "b": "Hyper Transfer Text Protocol",
+            "c": "Holo Text Tranfer Protocol",
+            "d": "Holo Tranfer Text Protocol"
         },
-        correctAnswer: "a"
+        "correctAnswer": "a"
     },
-    
     {
-        question: "Cuando realizamos dibujos y hacemos edicion de imagenes en la computadora lo podemos hacer con algunos de estos programas, ¿cuales son?",
-        answers: {
-            a: "Paint",
-            b: "Fireworks",
-            c: "Photoshop",
-            d: "Cualquiera de los 3 anteriores"
+        "question": "¿Qué devuelve (true || false) && (!false) ?",
+        "answers":{
+            "a": "True",
+            "b": "False",
+            "c": "Sintax Error",
+            "d": "trulse"
         },
-        correctAnswer: "d"
+        "correctAnswer": "a"
     },
-
     {
-        question: "Menciona que son los elementos de entrada a un computador.",
-        answers: {
-            a: "Son programas en espera al ser ejecutados",
-            b: "Son los que permiten dar entrada al cpu",
-            c: "Son los que te permiten abrir Internet",
-            d: "Google, Yahoo, Gmail"
+        "question": "¿Qué es FTP? ",
+        "answers":{
+            "a": "Fuentes Tipo Pro",
+            "b": "Font Type Pro",
+            "c": "File Transfer Protocol",
+            "d": "Fire Transformation Procces"
         },
-        correctAnswer: "b"
+        "correctAnswer": "c"
     },
-
     {
-        question: "¿Qué función cree usted que cumplan los dispositivos que están conectados a la computadora?",
-        answers: {
-            a: "Adornar al computador",
-            b: "Permiten la entrada como la salida de procesos",
-            c: "Permitir el libre acceso al cpu",
-            d: "Sirven para que encienda correctamente una computadora"
+        "question": "¿Qué es MVC? ",
+        "answers":{
+            "a": "Modelos Virtuales Cam",
+            "b": "Modelo Vista Controlador",
+            "c": "Misterios Visiones y Crimenes",
+            "d": "México Va al Campeonato"
         },
-        correctAnswer: "b"
+        "correctAnswer": "b"
     },
-
     {
-        question: "Menciona que son Dispositivos de Almacenamiento",
-        answers: {
-            a: "Permiten la comunicación entre los usuarios y la computadora",
-            b: "Proporcionan almacenamiento no volátil de datos y memoria.",
-            c: "Permiten conectar a la computadora con otras a través de una interfaz de red. Entre ellos se pueden mencionar los Modem, Tarjetas de Interfaz de Red,",
-            d: "Esta no es"
+        "question": "¿Qué es CRUD? ",
+        "answers":{
+            "a": "Conquist and Restore Utilities Domain",
+            "b": "Common Request United Defender",
+            "c": "Cronos Reloaded Unlimited Dream",
+            "d": "Create Read Update Delete"
         },
-        correctAnswer: "b"
+        "correctAnswer": "d"
     },
-
     {
-        question: "Indique cuál es la combinación de teclas que sirve para cerrar una ventana.",
-        answers: {
-            a: "ALT+F4",
-            b: "CTL+ALT+Z",
-            c: "ENTER",
-            d: "ALT+SHIFT"
+        "question": "¿Qué es LAN? ",
+        "answers":{
+            "a": "Local Area Network",
+            "b": "Legent Access Nation",
+            "c": "Linghtning Advantage Network",
+            "d": "Lime Aqua Neon"
         },
-        correctAnswer: "a"
+        "correctAnswer": "a"
     },
-
     {
-        question: "Formula que permite sumar los valores desde la celda A1 hasta la celda A33 en Excel.",
-        answers: {
-            a: "=(A1:A33)",
-            b: "=SUMA(A1:A33)",
-            c: "SUMA(A1:A33)",
-            d: "=SUMA(A1+A33)"
+        "question": "¿Cuál de estos no es un lenguaje de programación? ",
+        "answers":{
+            "a": "JavaScript",
+            "b": "Java",
+            "c": "BrainFuck",
+            "d": "HTML"
         },
-        correctAnswer: "b"
-    },
-
-    {
-        question: "Combinación de teclas que despliega el portapapeles de windows",
-        answers: {
-            a: "Ctrl + Y",
-            b: "Alt + Y",
-            c: "Windows + V",
-            d: "Ctrl + Alt + Shift + Y"
-        },
-        correctAnswer: "c"
-    },
-
-    {
-        question: "Julio necesita presentar una monografía y no sabe dónde encontrar información, ¿Qué le sugieres?",
-        answers: {
-            a: "Power Point",
-            b: "bajo el sillón",
-            c: "Google",
-            d: "No hacerla"
-        },
-        correctAnswer: "c"
+        "correctAnswer": "d"
     }
 ];
- 

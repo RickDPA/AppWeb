@@ -31,6 +31,10 @@ function initializeClock(id, endtime) {
         minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
         secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
+        if(tryAgainButton.style.display == 'inline-block'){
+            return;
+        }
+
         if (t.total <= 0) {
 
             clearInterval(timeinterval);

@@ -7,8 +7,7 @@ function submitForm(event){
     
 function getMyData(){
 
-    const question = document.getElementById("qn").value +". " +
-    document.getElementById("q").value;
+    const question = document.getElementById("q").value;
     const a = document.getElementById("a").value;
     const b = document.getElementById("b").value;
     const c = document.getElementById("c").value;
@@ -22,7 +21,7 @@ function getMyData(){
         questionBank.push(newData);
         document.getElementById('qCount').innerHTML = questionBank.length;
         document.getElementById("addQuestion").reset();
-        //location.reload();
+        
     }
     return questionBank;
 
@@ -30,20 +29,20 @@ function getMyData(){
 
 
 function saveMyFile(){
-    localStorage.setItem("questionBank", JSON.parse(questionBank));
+    localStorage.setItem("questionBank", JSON.stringify(questionBank));
     location.replace("quiz_app.html");
     
 }
 
 
-//-------------------NO SÉ QUÉ HACE ESTO O SI VA AQUI XD ----------
+
 const addQuestionButton = document.getElementById("submitQuestion");
 const saveButton = document.getElementById("saveQuestionBank");
 const questionBank = [];
 const newObject = localStorage.getItem("questionBank");
 let dataStored = JSON.parse(newObject);
 
-if(dataStored != ""){
+if(dataStored ){
     for(i=0; i < dataStored.length; i++){
         questionBank.push(dataStored[i]);
     }
@@ -53,3 +52,6 @@ if(dataStored != ""){
         questionBank.push(data[i]);
     }
 }
+
+addQuestionButton.addEventListener("click", getMyData);
+saveButton.addEventListener("click", saveMyFile);
