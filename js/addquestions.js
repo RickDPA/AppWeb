@@ -30,7 +30,7 @@ function getMyData(){
 
 function saveMyFile(){
     localStorage.setItem("questionBank", JSON.stringify(questionBank));
-    location.replace("quiz_app.html");
+    location.replace("index.html");
     
 }
 
